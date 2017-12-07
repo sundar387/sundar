@@ -1,0 +1,12 @@
+def recurfibo(n):
+if n<=1:
+return n
+else:
+return(recurfibo(n-1))+(recurfibo(n-2))
+n = int(input("Please Enter a number: "))
+if n<=0:
+print("Enter the crt no:")
+else 
+print("Fibonacci series:")
+for i in range(n):
+print(recurfibo(i))
